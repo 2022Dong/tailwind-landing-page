@@ -1,16 +1,16 @@
 {
-  "name": "tailwind-manage-landing",
+  "name": "learning-tailwind",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "tailwindcss -i ./input.css -o ./css/main.css",
-    "watch": "tailwindcss -i ./input.css -o ./css/main.css --watch"
+    "build": "tailwindcss -i ./src/input.css -o ./assets/css/main-build.css --minify",
+    "dev": "tailwindcss -i ./src/input.css -o ./assets/css/main.css --watch"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author":"Dong",
+  "license":"",
   "devDependencies": {
-    "tailwindcss": "^3.0.23"
-  }
+    "tailwindcss": "^3.4.3"
+  }  
 }
